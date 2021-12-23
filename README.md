@@ -130,6 +130,13 @@ List of common dependencies for themes:
 
 # Installation (with package manager)
 
+Gentoo ([GURU](https://gitweb.gentoo.org/repo/proj/guru.git/))
+```sh
+ sudo layman -a guru
+ sudo emerge --sync guru
+ sudo emerge -a x11-wm/leftwm
+ ```
+ 
 Archlinux ([AUR])
 ```sh
 paru -S leftwm
